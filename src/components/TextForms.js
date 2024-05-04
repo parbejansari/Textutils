@@ -5,7 +5,6 @@ export default function TextForms(props) {
     if (document.querySelector("#myBox").value !== "") {
       let newText = text.toUpperCase();
       setText(newText);
-      props.showAlert("Converted to uppercase", "success");
     }
   };
 
@@ -13,7 +12,6 @@ export default function TextForms(props) {
     if (document.querySelector("#myBox").value !== "") {
       let newText = text.toLowerCase();
       setText(newText);
-      props.showAlert("Converted to lowercase", "success");
     }
   };
 
@@ -21,7 +19,6 @@ export default function TextForms(props) {
     if (document.querySelector("#myBox").value !== "") {
       let newText = text.split(/[ ]+/);
       setText(newText.join(" "));
-      props.showAlert("Extra spaces removed", "success");
     }
   };
 
@@ -29,7 +26,6 @@ export default function TextForms(props) {
     if (document.querySelector("#myBox").value !== "") {
       let newText = "";
       setText(newText);
-      props.showAlert("Text Cleared", "success");
     }
   };
 
@@ -52,7 +48,6 @@ export default function TextForms(props) {
       setTimeout(() => {
         copyBtn.innerText = "Copy Text";
       }, 1000);
-      props.showAlert("Text copied", "success");
     }
   };
 
