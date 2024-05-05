@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.4ac55ae9.css","mappings":"AAAA,KACI,gBACJ,CAEA,OACI,WACJ","sources":["App.css"],"sourcesContent":[".btn{\r\n    margin-right: 5px;\r\n}\r\n\r\n#myBox{\r\n    resize: none;\r\n}"],"names":[],"sourceRoot":""}
